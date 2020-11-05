@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
-import firebase from 'firebase';
+import firebase from 'firebase/app';
 
 @Injectable()
 export class AuthGuardService {
